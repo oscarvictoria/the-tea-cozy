@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-content: normal;
+  width: 100%;
+  background-color: black;
+
+  /* align-content: space-around; */
+}
+
+.header img {
+  padding: 10px;
+  height: 50px;
+
+  /* background-color: white; */
+}
+
+.main-nav {
+  margin-left: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  align-content: end;
+}
+
+.nav-links li a {
+  color: white;
+}
+
+/* Mission Section */
+
+.mission-section {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-text-container {
+  background-image: url(images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 100px;
+  padding-top: 300px;
+  color: white;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text-container h2,
+h4 {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+}
+
+img {
+  height: 300px;
+}
+
+.featured-tea-section {
+  margin: 0 auto;
+}
+
+.featured-tea-section h4,
+h3,
+h2 {
+  /* height: 800px; */
+  text-align: center;
+
+  color: #fff;
+}
+
+.tea-items-container {
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  background-color: black;
+
+  max-width: 1100;
+}
+
+.locations-section {
+  margin-top: 250px;
+  background-color: black;
+}
+
+.location-cards-container {
+  background-image: url(images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  margin-top: 10px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-card {
+  background-color: black;
+  padding: 10px 40px;
+  width: 200px;
+  color: white;
+  margin: 30px;
+  height: 200px;
+}
+
+.location-card h3 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.location-card p {
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+}
+
+footer {
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  padding: 20px 15px;
+}
+
+.contact-info h5 {
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright {
+  font-size: small;
+}
